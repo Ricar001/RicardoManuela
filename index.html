@@ -96,6 +96,18 @@
                 font-size: 1.2em;
             }
         
+            .ninos{
+                font-size: 1.5em;
+                color: #ffffff;
+            }
+
+            .listar {
+
+                color: #ff4500;
+                font-size: 1.3em;
+                
+
+            }
     </style>
     <script>
         function updateCountdown() {
@@ -125,7 +137,13 @@
         <p class="countdown" id="countdown"></p>
         <p class="recepcion">Recepción: <br>Salón de Eventos Vista Marina <br> Av. España No. 70, Santo Domingo Este</p>
         <a href="https://docs.google.com/forms/d/e/1FAIpQLSc4ncm8NH4i6frDyatfVAVe6zP0RXQd4IRpQ0oHRoQh3BSaWw/viewform?usp=dialog" target="_blank"  class="rsvp-button">Confirmar Asistencia</a>
+        
+        <p class="ninos"> Niños Dulces Sueños En Casa</p>
+
         <p class="donation">Su presencia en nuestra boda es el mejor regalo. Si desean contribuir de otra manera, una ayuda para la construcción de nuestro hogar será recibida con mucho amor y gratitud. 
+
+            <br><a href="https://drive.google.com/file/d/1ldLhByjL4qcUmm__rG4RY1GR63Ml61o8/view?usp=sharing" target="_blank" rel="noopener noreferrer" class="listar">Click para ver lista de regalos</a>
+
             <br>
             <br> <span class="cuentas">Cuentas Bancarias:</span>
             <br> <span style="font-family: 'Courier New', Courier, monospace;" >Reservas</span>: 960 0115 216
@@ -134,6 +152,17 @@
             <br><span style="font-family: 'Courier New', Courier, monospace;;" >APAP</span>: 103 326 5276  <br> Ricardo De Jesus (Ced.: 402-2265377-2). 
              </p>   
     </div>
+
+    <audio id="bg-audio" src="The Legend of Zelda_ Ocarina of Time  Title Theme  近藤浩治 [Koji Kondo].mp3" loop style="display: none;"></audio>
+
+    <script>
+      document.addEventListener('DOMContentLoaded', function () {
+        document.body.addEventListener('click', function () {
+          document.getElementById('bg-audio').play();
+        }, { once: true });
+      });
+    </script>
+
 </body>
 </html>
 
